@@ -1,0 +1,5 @@
+Download Link: https://assignmentchef.com/product/solved-pipeline-hazard-test-case-generation
+<br>
+Develop a pair of test programs that you can use to test your pipelined designs. Specifically, the first program should cause at least 10 different cases of possible data or control hazards for the 5-stage MIPS processor presented in class. Each test case must be described/justified in a comment. The second program should be a refactored version of the first program that guarantees, for the 5- stage pipeline presented in class, no data or control hazards exist (i.e., use judicious NOP insertion and instruction reordering to avoid data and control hazards in your code). Submit your programs as .s MIPS assembly files. Your test program should be different than that of your term project partner(s). ?you should assume branches and jumps evaluate in the decode stage?
+
+Five stages are IF:IFetch, ID:Dec, EX:Execute, MEM: MemAccess, WB: WriteBack.
